@@ -111,4 +111,45 @@ tela de configuraçao de proxy
 <img src=tela_de_proxy.png width=500 height=400>
 
 
- 
+#### Atualização do sistema 
+
+```
+sudo apt uptade -y && sudo apt upgrade -y
+```
+reinicie seu servidor usando o comando abaixo:
+
+```
+reboot
+```
+
+#### instalação do compilador Nasm
+o compilador do NASM é uma ferramenta que nos permite programar 
+em Assembly. Assim é possivel criar programas que manipulam 
+dados que estão nos resgistradores do processador .
+
+para instalar o NASM no Ubuntu, usamos o comando:
+
+```
+sudo apt install nasm -y 
+```
+
+#### instalação do compilador da linguagem C
+
+em linux, o compilador da linguagem c é GCC. ele é uma 
+ferramenta importante para o desenvolvimento de programas 
+em C.
+
+para instalar use o comando:
+```
+sudo apt install gcc -y
+```
+#### conexão servidor e VScode via ssh
+
+precisamos instalar uma extensão no VScode  para acessar o nosso 
+servidor de forma remota.
+
+!["extensão SSH"](extensao.png)
+
+configuração do acesso remoto 
+
+!["extensão SSH"](configuracao_ssh.png)
